@@ -15,6 +15,10 @@
 		65740E181DB0ACE9005F3B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65740E161DB0ACE9005F3B6C /* Main.storyboard */; };
 		65740E1A1DB0ACE9005F3B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65740E191DB0ACE9005F3B6C /* Assets.xcassets */; };
 		65740E1D1DB0ACE9005F3B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65740E1B1DB0ACE9005F3B6C /* LaunchScreen.storyboard */; };
+		65740E251DB0CA60005F3B6C /* aaaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 65740E241DB0CA60005F3B6C /* aaaa.png */; };
+		65740E281DB0CE61005F3B6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65740E271DB0CE61005F3B6C /* QuartzCore.framework */; };
+		65740E2A1DB0CE67005F3B6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65740E291DB0CE67005F3B6C /* Foundation.framework */; };
+		65740E2C1DB0CE6C005F3B6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65740E2B1DB0CE6C005F3B6C /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		65740E191DB0ACE9005F3B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65740E1C1DB0ACE9005F3B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65740E1E1DB0ACE9005F3B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65740E241DB0CA60005F3B6C /* aaaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aaaa.png; sourceTree = "<group>"; };
+		65740E271DB0CE61005F3B6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		65740E291DB0CE67005F3B6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65740E2B1DB0CE6C005F3B6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65740E2C1DB0CE6C005F3B6C /* CoreGraphics.framework in Frameworks */,
+				65740E2A1DB0CE67005F3B6C /* Foundation.framework in Frameworks */,
+				65740E281DB0CE61005F3B6C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +59,7 @@
 			children = (
 				65740E081DB0ACE9005F3B6C /* testOpenGLES */,
 				65740E071DB0ACE9005F3B6C /* Products */,
+				65740E261DB0CE61005F3B6C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +80,7 @@
 				65740E111DB0ACE9005F3B6C /* Shader.vsh */,
 				65740E131DB0ACE9005F3B6C /* GameViewController.h */,
 				65740E141DB0ACE9005F3B6C /* GameViewController.m */,
+				65740E241DB0CA60005F3B6C /* aaaa.png */,
 				65740E161DB0ACE9005F3B6C /* Main.storyboard */,
 				65740E191DB0ACE9005F3B6C /* Assets.xcassets */,
 				65740E1B1DB0ACE9005F3B6C /* LaunchScreen.storyboard */,
@@ -83,6 +96,16 @@
 				65740E0A1DB0ACE9005F3B6C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65740E261DB0CE61005F3B6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65740E2B1DB0CE6C005F3B6C /* CoreGraphics.framework */,
+				65740E291DB0CE67005F3B6C /* Foundation.framework */,
+				65740E271DB0CE61005F3B6C /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +172,7 @@
 				65740E1A1DB0ACE9005F3B6C /* Assets.xcassets in Resources */,
 				65740E1D1DB0ACE9005F3B6C /* LaunchScreen.storyboard in Resources */,
 				65740E101DB0ACE9005F3B6C /* Shader.fsh in Resources */,
+				65740E251DB0CA60005F3B6C /* aaaa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
